@@ -1,0 +1,42 @@
+{
+  "name": "FlashcardSession",
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "note_id": {
+      "type": "string"
+    },
+    "cards_known": {
+      "type": "integer",
+      "default": 0
+    },
+    "cards_learning": {
+      "type": "integer",
+      "default": 0
+    },
+    "total_cards": {
+      "type": "integer",
+      "default": 0
+    },
+    "xp_earned": {
+      "type": "integer",
+      "default": 0
+    },
+    "date": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "student_id",
+    "topic",
+    "date"
+  ]
+}

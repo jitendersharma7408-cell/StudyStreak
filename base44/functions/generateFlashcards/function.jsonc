@@ -1,0 +1,4 @@
+{
+  "name": "generateFlashcards",
+  "entry": "entry.ts"
+}

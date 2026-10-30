@@ -1,0 +1,28 @@
+{
+  "name": "UserSeenQuestions",
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "question_text": {
+      "type": "string"
+    },
+    "course": {
+      "type": "string"
+    },
+    "stream": {
+      "type": "string"
+    },
+    "semester": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "student_id",
+    "question_text"
+  ]
+}

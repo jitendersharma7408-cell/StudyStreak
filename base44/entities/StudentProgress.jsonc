@@ -1,0 +1,76 @@
+{
+  "name": "StudentProgress",
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "course": {
+      "type": "string",
+      "enum": [
+        "B.Tech",
+        "B.E.",
+        "BCA",
+        "B.Sc",
+        "B.Com",
+        "B.A.",
+        "M.Tech",
+        "MCA",
+        "MBA",
+        "M.Sc",
+        "Diploma",
+        "Other"
+      ]
+    },
+    "stream": {
+      "type": "string"
+    },
+    "semester": {
+      "type": "string",
+      "enum": [
+        "Semester 1",
+        "Semester 2",
+        "Semester 3",
+        "Semester 4",
+        "Semester 5",
+        "Semester 6",
+        "Semester 7",
+        "Semester 8"
+      ]
+    },
+    "stars": {
+      "type": "integer",
+      "default": 0
+    },
+    "xp": {
+      "type": "integer",
+      "default": 0
+    },
+    "streak": {
+      "type": "integer",
+      "default": 0
+    },
+    "last_completed_day": {
+      "type": "string"
+    },
+    "total_attempted": {
+      "type": "integer",
+      "default": 0
+    },
+    "total_correct": {
+      "type": "integer",
+      "default": 0
+    },
+    "total_wrong": {
+      "type": "integer",
+      "default": 0
+    }
+  },
+  "required": [
+    "student_id",
+    "name"
+  ]
+}

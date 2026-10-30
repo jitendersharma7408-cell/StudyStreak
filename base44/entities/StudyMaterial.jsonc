@@ -1,0 +1,28 @@
+{
+  "name": "StudyMaterial",
+  "type": "object",
+  "properties": {
+    "subject": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "practice_question": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "subject",
+    "title",
+    "summary",
+    "content",
+    "practice_question"
+  ]
+}

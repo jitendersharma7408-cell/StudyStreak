@@ -1,0 +1,32 @@
+{
+  "name": "TopicNote",
+  "type": "object",
+  "properties": {
+    "subject": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "short_notes": {
+      "type": "string"
+    },
+    "detailed_notes": {
+      "type": "string"
+    },
+    "exam_notes": {
+      "type": "string"
+    },
+    "important_questions": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "subject",
+    "topic",
+    "short_notes",
+    "detailed_notes",
+    "exam_notes",
+    "important_questions"
+  ]
+}

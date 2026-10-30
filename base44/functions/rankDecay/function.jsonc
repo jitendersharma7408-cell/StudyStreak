@@ -1,0 +1,13 @@
+{
+  "name": "rankDecay",
+  "entry": "entry.ts",
+  "automations": [
+    {
+      "type": "scheduled",
+      "name": "rank_decay_every_3_minutes",
+      "schedule_mode": "recurring",
+      "schedule_type": "cron",
+      "cron_expression": "*/3 * * * *"
+    }
+  ]
+}
